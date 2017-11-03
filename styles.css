@@ -1,0 +1,26 @@
+/**** NAV BAR ****/
+.nav-item nav-link {
+	float: right;
+}
+
+/**** JUMBOTRON ****/
+.jumbotron {
+	margin: 2em;
+}
+
+/**** CARDS ****/
+.card-img-top {
+	border-radius: 100%;
+}
+
+.card-text {
+	16px;
+}
+
+/**** FOOTER ****/
+footer {
+	background-color: black;
+	color: white;
+	padding: 2em;
+	text-align: center;
+}
