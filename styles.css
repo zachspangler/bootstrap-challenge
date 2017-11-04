@@ -1,5 +1,5 @@
 /**** NAV BAR ****/
-.nav-item nav-link {
+.nav-item{
 	float: right;
 }
 
@@ -8,19 +8,38 @@
 	margin: 2em;
 }
 
+/**** MAIN ****/
+.info {
+	background-color: #E8ECF0;
+	padding: 2em;
+}
+
 /**** CARDS ****/
-.card-img-top {
-	border-radius: 100%;
+.card {
+	margin: 4em .5em 4em .5em;
+	outline: none;
+	display: block;
+}
+
+img[alt="Card image cap"] {
+	border-radius: 50%;
+	display: block;
+	border: none;
 }
 
 .card-text {
-	16px;
+	font-size: 14px;
+	text-align: center;
+	outline: 1px solid black;
+	background-color: #E8ECF0;
+	border-radius: 10%;
+	display: block;
 }
 
 /**** FOOTER ****/
 footer {
 	background-color: black;
 	color: white;
-	padding: 2em;
+	padding: 1em;
 	text-align: center;
 }
