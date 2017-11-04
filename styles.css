@@ -1,5 +1,5 @@
 /**** NAV BAR ****/
-.nav-item{
+.navbar-toggler {
 	float: right;
 }
 
@@ -14,11 +14,15 @@
 	padding: 2em;
 }
 
+.col-sm-4 {
+	padding: 1em;
+}
+
 /**** CARDS ****/
 .card {
-	margin: 4em .5em 4em .5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 	outline: none;
-	display: block;
 }
 
 img[alt="Card image cap"] {
